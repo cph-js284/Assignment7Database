@@ -96,6 +96,11 @@ select *
 from my_cust
 where repCity = 'Sydney'
 ```
+<br>
+The below drawing illustrates the b-tree index, with a fanout of 4.
+The red line traversing the indices illustrates how the index 'Handji Gifts& Co' is found.
+A comparison is made for each index untill it either finds a direct match or the index it is compared to contains a larger value.
+In this case 'Handji Gifts& Co' is larger than the first 2 indices it is compared to, but smaller than the 3rd, so the "line" from the 3rd index is followed to a new block of indices, untill it finally reaches a match.<br>
 ![whiteboard](https://github.com/cph-js284/Assignment7Database/blob/master/B-tree-index.png)
 ----------------------------------------------------------------------------------------------------------------
 # cleanup
