@@ -59,11 +59,11 @@ Without a primarykey the table would therefore be violating the 1 st normalform 
 
 ------------------------------------------------------------------------------------------------------------------------
 # Exercise 3
-*Assume the same table as in exercise 2.
+*Assume the same table as in exercise 2.*
 
-    Write a safe update statement that change the repPhone column from oldNumber (say 12345678) to newNumber (say 87654321).
-    Write an update of repEmail which do not update properly (do not update it everywhere it should)
-*
+ - Write a safe update statement that change the repPhone column from oldNumber (say 12345678) to newNumber (say 87654321).
+ - Write an update of repEmail which do not update properly (do not update it everywhere it should)
+
 A safe update statement:
 ```sql
 update CustomerOverview set repPhone = 87654321 where repPhone = 12345678
