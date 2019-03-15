@@ -96,7 +96,7 @@ select *
 from my_cust
 where repCity = 'Sydney'
 ```
-
+![whiteboard](https://github.com/cph-js284/Assignment7Database/blob/master/B-tree-index.png)
 ----------------------------------------------------------------------------------------------------------------
 # cleanup
 If you did indeed you the above script to setup the docker container, you can delete the entire thing with the following command
